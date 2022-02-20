@@ -1,0 +1,49 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "Python: Jessie Ware",
+            "type": "python",
+            "request": "launch",
+            "program": "code.py",
+            "args": ["Jessie Ware", "What’s Your Pleasure?", "Pop", "2020"],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: Teens of Denial",
+            "type": "python",
+            "request": "launch",
+            "program": "code.py",
+            "args": ["Car Seat Headrest", "Teens of Denial", "Alternative", "2016"],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: SOUR",
+            "type": "python",
+            "request": "launch",
+            "program": "code.py",
+            "args": ["Olivia Rodrigo", "SOUR", "Pop", "2021"],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: Pure Comedy",
+            "type": "python",
+            "request": "launch",
+            "program": "code improved.py",
+            "args": ["Father John Misty", "Pure Comedy", "Alternative", "2017"],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: guy walks into a bar",
+            "type": "python",
+            "request": "launch",
+            "program": "code improved.py",
+            "args": ["Mini Mansions", "Guy Walks into a Bar...", "Alternative", "2019"],
+            "console": "integratedTerminal"
+        }
+    ] 
+}
