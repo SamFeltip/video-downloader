@@ -1,5 +1,4 @@
 # import openpyxl and tkinter modules
-from openpyxl import *
 from tkinter import *
 from downloadYoutube import *
 

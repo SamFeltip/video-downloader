@@ -3,23 +3,24 @@
 This program downloads videos from the internet as mp3 files and automatically adds metadata to the files based on information around the video on the webpage.
 
 ##Packages
-pip install:
-- eyed3 
-- pytube 
-- moviepy 
+a requirements txt file is included with this project. The following packages are installed:
+- eyed3 (0.9.6)
+- pytube (12.1.0)
+- moviepy (1.0.3)
 - glob (for metadata.py only)
 
-brew install:
+brew install is also needed:
 ffmpeg
 
-Put album art from `resources/coverart.jpeg`
 #Commandline Interface
+
+
+Put album art from `resources/coverart.jpeg`
+
 for downloadandaddmetadata.py:
 
 - -g indicates the genre of the album (default: Alternative)
-- -a causes the thumbnail to be overridden by the coverart.jpg file which is present in the resources folder
 - -y indicates the year the album was released (default: 2021)
-- -s indicates the album is self titled, and the album will be the same as the artist's name
 
 ##Example program runs
 

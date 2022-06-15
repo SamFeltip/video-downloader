@@ -17,9 +17,6 @@ import requests
 from eyed3.id3.frames import ImageFrame
 from pytube import Playlist, YouTube
 
-# python3 download.py "https://www.youtube.com/playlist?list=PLr99rnVSBqGAVbJuudUbRFGl-S1PuYs-5"
-
-
 def create_mp3(yt, out_file, artist_name, song_name, album_name, album_genre, album_year, song_count, album_length, ca_file="", download_loc="../resources/songs/mp3"):
     """
     create mp3 file once mp4 is downloaded
@@ -190,21 +187,7 @@ def download_playlist(playlist_url, album_genre, album_year, downloading_playlis
         create_mp3(yt, out_file, artist_name, song_name, album_name, album_genre, album_year, song_count, album_length, ca_file=ca_file, download_loc=download_loc)
 
 
-# if __name__ == "__main__":
-#     mp4_dir = "/resources/songs/mp4"
-#     directory = os.fsencode(mp4_dir)
-#
-#     for file in os.listdir(directory):
-#         filename = os.fsdecode(file)
-#         os.remove(os.path.join(mp4_dir, filename))
-#         print(file)
-
-
-
 if __name__ == "__main__":
-
-    # os.remove("/resources/songs/mp4")
-    # os.makedirs("/resources/songs/mp4")
 
     opts, args = getopt.getopt(sys.argv[1:], 'g:y:c:p')
     opts = dict(opts)
