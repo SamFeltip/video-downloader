@@ -58,7 +58,7 @@ for song_file_index in range(len(song_files)):
     audiofile = eyed3.load(song_files[song_file_index])
 
     audiofile.tag.artist = artist_name
-    audiofile.tag.genre = album_genre
+    audiofile.tag.album_genre = album_genre
     audiofile.tag.recording_date = album_year
     audiofile.tag.album = album_name
     audiofile.tag.album_artist = artist_name + "*"

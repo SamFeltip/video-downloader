@@ -13,8 +13,7 @@ brew install:
 ffmpeg
 
 Put album art from `resources/coverart.jpeg`
-
-##Parameters
+#Commandline Interface
 for downloadandaddmetadata.py:
 
 - -g indicates the genre of the album (default: Alternative)
@@ -26,6 +25,18 @@ for downloadandaddmetadata.py:
 
 - python3 download.py "https://www.youtube.com/playlist?list=PLr99rnVSBqGAVbJuudUbRFGl-S1PuYs-5"
 - python3 metadata.py "John Lennon" "Imagine" "Rock" "1971"
-
-**the configuration you'll want to use:**
 - python3 downloadandaddmetadata.py -y "1967" -g "Rock" -a "https://www.youtube.com/playlist?list=PL3PhWT10BW3VDM5IcVodrdUpVIhU8f7Z-"
+- 
+**the configuration you'll want to use:**
+- python downloadYoutube/__init__.py -g Alternative -y 2022 "https://youtube.com/playlist?list=PLfiMjLyNWxeZ4wSi-sePiHNSJ-5hPYOWp"
+
+#User Interface
+This project can also be interacted with using download_with_ui.py.
+This script requires no parameters.
+
+When filling in file paths, they must be absolute, for example:
+``~/Desktop/Music/coverart.png``
+
+NOTE: only tested on MacOS
+
+
